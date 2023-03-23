@@ -31,6 +31,7 @@ const AppContext = ({ children }) => {
   };
 
   const removeCartData = (id) => {
+    console.log("g");
     const arr = cartData.filter((elem) => elem.id !== id);
     storeProducts[id - 1].inCart = false;
     storeProducts[id - 1].count = 0;

@@ -42,6 +42,7 @@ img {
 
 .btn {
   justify-self: flex-end;
+  width: 300px;
   color: crimson;
   border-color: crimson;
 }
@@ -63,4 +64,16 @@ img {
   gap: 20px;
   justify-content: center;
   font-size: 23px;
+}
+
+aside {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 30px;
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  padding-right: 50px;
 }

@@ -15,7 +15,6 @@ const Product = ({ id }) => {
 
   const filteredCtx = ctx.data.filter((elem) => elem.id === id);
   const { title, img, price, inCart } = filteredCtx[0];
-  console.log(inCart);
 
   return (
     <li className={ProdStyles.card}>
