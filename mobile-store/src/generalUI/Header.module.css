@@ -1,0 +1,39 @@
+.nav {
+  display: flex;
+  background-color: rgb(1, 1, 192);
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+.nav div {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  color: white;
+}
+
+.nav div h1 {
+  font-size: 30px;
+}
+
+.nav .icon {
+  font-size: 60px;
+  color: rgb(210, 161, 1);
+}
+
+.btn {
+  border: 1px solid rgb(125, 190, 255);
+  color: rgb(125, 190, 255);
+}
+
+.btn:hover {
+  color: rgb(1, 1, 192);
+  background-color: rgb(125, 190, 255);
+  transition: 0.5s;
+}
+
+a {
+  text-decoration: none;
+  color: white !important;
+}

@@ -1,0 +1,23 @@
+.section {
+  background-color: rgba(94, 71, 71, 0.141);
+  padding: 100px 0;
+}
+
+.section h2 {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 50px;
+  font-family: "Permanent Marker", cursive;
+}
+
+.section h2 span {
+  color: rgb(210, 161, 1);
+}
+
+.wrapper {
+  display: flex;
+  gap: 100px;
+  flex-wrap: wrap;
+  width: 95%;
+  margin: 0 auto;
+}

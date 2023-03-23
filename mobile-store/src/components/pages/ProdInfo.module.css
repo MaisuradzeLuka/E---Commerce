@@ -1,0 +1,79 @@
+.phoneInfo {
+  padding: 130px 0;
+}
+
+.phoneInfo h2 {
+  text-align: center;
+  font-size: 40px;
+  color: blue;
+  margin-bottom: 50px;
+}
+
+.info-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.info-wrapper img {
+  width: 40%;
+}
+
+.info-wrapper article {
+  width: 40%;
+  margin-top: 50px;
+}
+
+.info-wrapper h3 {
+  font-size: 50px;
+}
+
+.info-wrapper h4 {
+  font-size: 40px;
+  letter-spacing: 10px;
+  color: rgba(53, 53, 53, 0.547);
+}
+
+.info-wrapper span {
+  display: block;
+  color: blue;
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.info-wrapper p {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.info {
+  font-weight: normal !important;
+  font-family: sans-serif;
+  margin: 10px 0 15px 0;
+  color: grey;
+}
+
+.btn1 {
+  border: 1px solid rgb(80, 168, 255);
+  color: rgb(80, 168, 255);
+  margin-right: 30px;
+}
+
+.btn1:hover {
+  color: rgb(1, 1, 192);
+  background-color: rgb(125, 190, 255);
+  transition: 0.5s;
+}
+
+.btn2 {
+  border: 1px solid orange;
+  color: orange;
+  margin-right: 30px;
+}
+
+.btn2:hover {
+  color: rgb(5, 0, 40);
+  background-color: orange;
+  transition: 0.5s;
+}

@@ -1,0 +1,56 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  background-color: white;
+  font-family: "Oswald", sans-serif;
+  border-radius: 8px;
+}
+
+.card .price {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px 20px 20px;
+  font-size: 25px;
+}
+
+.img {
+  position: relative;
+  overflow: hidden;
+}
+
+.card img {
+  width: 80%;
+  margin: 0 auto;
+  padding: 50px 40px 100px 40px;
+  display: block;
+  transition: transform 1s;
+}
+
+.card img:hover {
+  transform: scale(1.15);
+}
+
+.card:hover button {
+  transform: translate(0, 0);
+  /* display: block; */
+}
+
+.card button {
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translate(100%, 100%);
+  transition: all 1s linear;
+  font-size: 28px;
+  padding: 5px 7.5px 0 7.5px;
+  color: white;
+  border: 1px solid rgb(3, 125, 201);
+  background-color: rgb(3, 125, 201);
+  border-radius: 10px 0 0 0;
+}
+
+.link {
+  color: black !important;
+}
