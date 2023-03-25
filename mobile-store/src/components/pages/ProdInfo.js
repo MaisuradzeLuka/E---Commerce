@@ -10,15 +10,7 @@ const ProdInfo = () => {
   const id = location.state;
   const ctx = useContext(AuthContext);
   const filteredData = ctx.data.filter((elem) => elem.id === id);
-  const { title, company, img, info, price, inCart } = filteredData[0];
-  const arr = ctx.cartData;
-  // const handleClick = () => {
-  //   if (!inCart) {
-  //     ctx.setCartData([...arr, filteredData[0]]);
-  //     ctx.data[id - 1].inCart = true;
-  //   }
-  //   return;
-  // };
+  const { title, company, img, info, price } = filteredData[0];
 
   return (
     <>

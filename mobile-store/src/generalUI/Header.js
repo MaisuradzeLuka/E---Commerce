@@ -9,7 +9,9 @@ const Header = () => {
     <header>
       <nav className={HeaderStyles.nav}>
         <div>
-          <GiRotaryPhone className={HeaderStyles.icon} />
+          <Link to="/">
+            <GiRotaryPhone className={HeaderStyles.icon} />
+          </Link>
           <Link to="/">
             <h1>Products</h1>
           </Link>

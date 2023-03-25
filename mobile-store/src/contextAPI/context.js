@@ -12,6 +12,7 @@ export const AuthContext = React.createContext({
   cartData: [],
   removeCartData: () => {},
   handleClick: () => {},
+  clearCart: () => {},
 });
 
 const AppContext = ({ children }) => {
@@ -31,7 +32,7 @@ const AppContext = ({ children }) => {
   };
 
   const removeCartData = (id) => {
-    console.log("g");
+    console.log(id);
     const arr = cartData.filter((elem) => elem.id !== id);
     storeProducts[id - 1].inCart = false;
     storeProducts[id - 1].count = 0;
@@ -39,6 +40,14 @@ const AppContext = ({ children }) => {
     setCartData([...arr]);
   };
 
+  const clearCart = () => {
+    storeProducts.map((elem) => {
+      elem.inCart = false;
+      elem.count = 0;
+    });
+
+    setCartData([]);
+  };
   return (
     <AuthContext.Provider
       value={{
@@ -51,6 +60,7 @@ const AppContext = ({ children }) => {
         setId,
         removeCartData,
         handleClick,
+        clearCart,
       }}
     >
       {children}

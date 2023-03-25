@@ -77,3 +77,36 @@
   background-color: orange;
   transition: 0.5s;
 }
+
+@media (max-width: 450px) {
+  .phoneInfo {
+    padding: 50px 0;
+  }
+
+  .info-wrapper {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .info-wrapper img {
+    width: 80%;
+  }
+
+  .info-wrapper article {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .info-wrapper h3 {
+    font-size: 26px;
+  }
+
+  .info-wrapper h4 {
+    font-size: 23px;
+  }
+
+  .btn1 {
+    margin-bottom: 20px;
+  }
+}
